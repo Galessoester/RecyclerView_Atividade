@@ -23,11 +23,30 @@ class MainActivity : AppCompatActivity() {
 
 
         FilmeAdapter.setList(
-
+            mutableListOf(
+                FilmeModel(
+                    "Dark",
+                    "Ficção Científica",
+                    true
+                ),
+                FilmeModel(
+                    "As Branquelas",
+                    "Comédia",
+                    true
+                ),
+                FilmeModel(
+                    "Dolemite Is My Name\n",
+                    "Drama/comédia",
+                    false
+                ),
+                FilmeModel(
+                    "How to get away with murder",
+                    "Drama",
+                    true
+                )
+            )
         )
 
-
     }
-
 
 }
